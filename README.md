@@ -48,7 +48,7 @@ cell nor2_1
 
 Just for researching, this project also provided LEF, GDS files which can be use with OpenLane flow by replace those files in PDK folder(sky130A/libs.ref).
 
-<img width="832" height="585" alt="Screenshot from 2026-03-10 12-02-24" src="https://github.com/user-attachments/assets/57ba2841-2955-40aa-84a1-0b9d4e11003c" />
+<img width="832" height="585" alt="Screenshot from 2026-03-10 12-02-24" src="https://github.com/user-attachments/assets/57ba2841-2955-40aa-84a1-0b9d4e11003c" /><br><br>
 
 In future work, a .LIB file should be developed for synthesis tools (e.g., Yosys), along with a fully developed version of the Custom Standard Cell library.
 
