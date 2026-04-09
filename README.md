@@ -24,4 +24,5 @@ These values are very close, indicating that the rising and falling delays are w
 Just like inv_1. Here is the consumption of cell nand2_1, nor2_1
 
 - nand2_1:
+
 -- Worst-case delay: 
