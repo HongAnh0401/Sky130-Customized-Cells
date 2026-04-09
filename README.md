@@ -10,11 +10,7 @@ Figure below presents the non-parasitic simulation results of the STANDARD CELL 
 
 The results show that the inverter has an unbalanced delay, with the low-to-high transition slower than the high-to-low transition, which may cause timing issues in digital circuits. This behavior is mainly due to the use of an HVT PMOS sky130_fd_pr__pfet_01v8_hvt, which reduces pull-up strength and slows down the transition.
 
-In addition, the fixed sizing ratio (Wp = 1000 nm, Wn = 650 nm) limits optimization and further contributes to the imbalance.  
-
-
-
-
+In addition, the fixed sizing ratio (Wp = 1000 nm, Wn = 650 nm) limits optimization and further contributes to the imbalance.  <br><br>
 
 <img width="1481" height="570" alt="custom" src="https://github.com/user-attachments/assets/343f1ff8-01e4-489e-a297-7dc633cd2122" />
 Figure below shows the simulation results of the CUSTOM CELL inv_1. The extracted delay values are:
