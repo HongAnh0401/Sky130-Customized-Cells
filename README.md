@@ -25,5 +25,7 @@ Just like inv_1. Here is the consumption of cell nand2_1, nor2_1
 
 - nand2_1:
 <img width="818" height="343" alt="image" src="https://github.com/user-attachments/assets/9e8264df-be70-4b36-a665-45b7962d3b04" />
+<img width="819" height="148" alt="image" src="https://github.com/user-attachments/assets/bb164082-2751-44ed-b4cf-5769dc87e259" />
+
 
 Worst-case delay occurs during the transition from 1(A), 0(B) to 1(A), 1(B), where the node is driven by B. Note that A and B are connected in series.
