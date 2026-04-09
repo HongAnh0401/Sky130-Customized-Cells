@@ -21,11 +21,22 @@ Figure below shows the non-parasitic simulation results of the CUSTOM CELL inv_1
 
 These values are very close, indicating that the rising and falling delays are well balanced. This improvement is achieved by properly optimizing the transistor sizing (W/L), particularly the PMOS-to-NMOS width ratio (Wp = 1050nm/Wn = 450nm), during the design process. Also replace the HVT PMOS with the normal one: sky130_fd_pr__pfet_01v8.
 
-Just like inv_1. Here is the consumption of cell nand2_1, nor2_1
+Just like inv_1. Here is the consumption of cell NAND2_1, NOR2_1:
 
 - nand2_1:
 <img width="818" height="343" alt="image" src="https://github.com/user-attachments/assets/9e8264df-be70-4b36-a665-45b7962d3b04" />
 <img width="819" height="148" alt="image" src="https://github.com/user-attachments/assets/bb164082-2751-44ed-b4cf-5769dc87e259" />
 
 
-Worst-case delay occurs during the transition from 1(A), 0(B) to 1(A), 1(B), where the node is driven by B. Note that A and B are connected in series.
+Worst-case delay occurs during the transition between 1(A), 0(B) to 1(A), 1(B), where the node is driven by B. This is because pin A and B are connected in series at NMOS area.
+
+- nor2_1
+<img width="815" height="339" alt="image" src="https://github.com/user-attachments/assets/65c30b85-feed-4692-b5e2-b75652190df2" />
+<img width="811" height="155" alt="image" src="https://github.com/user-attachments/assets/0e69c14a-c0b7-4fe1-b5b5-47fde0b6b605" />
+Worst-case delay occurs during the transition between 0(A), 0(B) to 1(A), 0(B), where the node is driven by A. This is because pin A and B are connected in series at PMOS area.
+
+# Layout and characterization
+<img width="539" height="705" alt="Screenshot from 2026-03-10 11-56-57" src="https://github.com/user-attachments/assets/de7c2458-1dd4-435d-bfa7-98d89796d85e" />
+<img width="539" height="705" alt="Screenshot from 2026-03-10 11-50-30" src="https://github.com/user-attachments/assets/b5b994dc-c3be-4fe3-b7a9-b52940487928" />
+<img width="539" height="705" alt="Screenshot from 2026-03-10 11-51-01" src="https://github.com/user-attachments/assets/40682c5b-0d0c-4db7-815f-8d0913034698" />
+
