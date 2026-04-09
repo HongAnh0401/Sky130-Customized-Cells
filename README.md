@@ -1,4 +1,4 @@
-# Sky130-Customized-Cells
+# Sky130-Custom-Standard-Cells
 Custom standard cell design using Sky130, focused on reducing propagation delay via transistor-level optimization and validated with simulation.
 
 # Propagation Delay
