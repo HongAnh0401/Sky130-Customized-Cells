@@ -38,20 +38,25 @@ Worst-case delay occurs during the transition between 0(A), 0(B) to 1(A), 0(B), 
 
 # Magic Layout, Characterization and Future Works
 <img width="539" height="705" alt="Screenshot from 2026-03-10 11-56-57" src="https://github.com/user-attachments/assets/de7c2458-1dd4-435d-bfa7-98d89796d85e" />
+
 cell inv_1
 <img width="539" height="705" alt="Screenshot from 2026-03-10 11-50-30" src="https://github.com/user-attachments/assets/b5b994dc-c3be-4fe3-b7a9-b52940487928" />
+
 cell nand2_1
 <img width="539" height="705" alt="Screenshot from 2026-03-10 11-51-01" src="https://github.com/user-attachments/assets/40682c5b-0d0c-4db7-815f-8d0913034698" />
+
 cell nor2_1
 
 Just for researching, this project also provided LEF, GDS files which can be use with OpenLane flow by replace those files in PDK folder(sky130A/libs.ref).
+
 <img width="832" height="585" alt="Screenshot from 2026-03-10 12-02-24" src="https://github.com/user-attachments/assets/57ba2841-2955-40aa-84a1-0b9d4e11003c" />
 
 In future work, a .LIB file should be developed for synthesis tools (e.g., Yosys), along with a fully developed version of the Custom Standard Cell library.
 
 The Project are based on the SkyWater SKY130 open-source Process Design Kit (PDK), which provides device models, standard cell libraries, and design rules for 130 nm CMOS technology.
+
 ## References
 
-[1] SkyWater Technology Foundry, "SkyWater SKY130 PDK Documentation." [Online]. Available: https://skywater-pdk.readthedocs.io/
+[1] SkyWater Technology Foundry, "SkyWater SKY130 Open PDK." [Online]. Available: https://github.com/google/skywater-pdk
 
-[2] T. Edwards, "Introduction to the SkyWater PDK: The New Age of Open Source Silicon," 2021.
+[2] T. Edwards, "Open_PDKs: Process Design Kit installation and configuration." [Online]. Available: https://github.com/RTimothyEdwards/open_pdks
