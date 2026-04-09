@@ -13,6 +13,9 @@ The results show that the inverter has an unbalanced delay, with the low-to-high
 In addition, the fixed sizing ratio (Wp = 1000 nm, Wn = 650 nm) limits optimization and further contributes to the imbalance.
 
 
+
+
+
 <img width="1481" height="570" alt="custom" src="https://github.com/user-attachments/assets/343f1ff8-01e4-489e-a297-7dc633cd2122" />
 Figure below shows the simulation results of the CUSTOM CELL inv_1. The extracted delay values are:
 
