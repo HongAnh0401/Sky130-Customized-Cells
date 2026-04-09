@@ -8,5 +8,5 @@ Figure below presents the non-parasitic simulation results of the STANDARD CELL 
 - tpHL (Propagation Delay High-to-Low) ≈ 1.03 × 10⁻¹¹ s ≈ 0.0103 ns
 - tpLH (Propagation Delay Low-to-High) ≈ 2.05 × 10⁻¹¹ s ≈ 0.0205 ns
 
-These results indicate that the standard cell inverter exhibits an unbalanced delay, where the low-to-high transition is significantly slower than the high-to-low transition. This imbalance may lead to timing issues in digital circuits.
-This imbalance can be explained by the use of a high-threshold-voltage (HVT) PMOS transistor in the standard cell. The higher threshold voltage reduces the PMOS drive strength, lead to slower pull-up transition. Moreover, the fixed sizing ratio (Wp = 1000nm, Wn = 650nm) is not flexible, which limits optimization and contributes to the observed delay imbalance.
+The results show that the inverter has an unbalanced delay, with the low-to-high transition slower than the high-to-low transition, which may cause timing issues in digital circuits. This behavior is mainly due to the use of an HVT PMOS, which reduces pull-up strength and slows down the transition.
+In addition, the fixed sizing ratio (Wp = 1000 nm, Wn = 650 nm) limits optimization and further contributes to the imbalance.
