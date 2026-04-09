@@ -38,13 +38,12 @@ Worst-case delay occurs during the transition between 0(A), 0(B) to 1(A), 0(B), 
 
 # Magic Layout, Characterization and Future Works
 <img width="539" height="705" alt="Screenshot from 2026-03-10 11-56-57" src="https://github.com/user-attachments/assets/de7c2458-1dd4-435d-bfa7-98d89796d85e" />
-
 cell inv_1
+
 <img width="539" height="705" alt="Screenshot from 2026-03-10 11-50-30" src="https://github.com/user-attachments/assets/b5b994dc-c3be-4fe3-b7a9-b52940487928" />
-
 cell nand2_1
-<img width="539" height="705" alt="Screenshot from 2026-03-10 11-51-01" src="https://github.com/user-attachments/assets/40682c5b-0d0c-4db7-815f-8d0913034698" />
 
+<img width="539" height="705" alt="Screenshot from 2026-03-10 11-51-01" src="https://github.com/user-attachments/assets/40682c5b-0d0c-4db7-815f-8d0913034698" />
 cell nor2_1
 
 Just for researching, this project also provided LEF, GDS files which can be use with OpenLane flow by replace those files in PDK folder(sky130A/libs.ref).
